@@ -16,7 +16,6 @@ puts "jill's last name  is #{jill.last_name}"
 # show me tom's last name
 puts "tom's last name is #{tom.last_name}"
 
-
 puts tom
 puts tom.inspect
 
@@ -24,14 +23,4 @@ puts tom.inspect
 puts "tom's full name is #{tom.full_name}"
 puts "tom's age is #{tom.age}"
 
-msg = tom.give_insurance? ? "should" : "should not"
-puts "Tom #{msg} get insured"
-
-tom.current_smoker = true
-msg = tom.give_insurance? ? "should" : "should not"
-puts "Tom #{msg} get insured"
-
-tom.married = true
-msg = tom.give_insurance? ? "should" : "should not"
-puts "Tom #{msg} get insured"
 
